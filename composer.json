@@ -1,0 +1,21 @@
+{
+	"name": "liilab/quizbit",
+	"description": "A plugin for creating quizzes in WordPress",
+	"type": "wordpress-plugin",
+	"license": "GPLv2 or later",
+	"authors": [
+		{
+			"name": "LII Lab",
+			"email": "mail.liilab@gmail.com"
+		}
+	],
+	"require": {
+		"kucrut/vite-for-wp": "^0.5.2"
+	},
+	"autoload": {
+        "psr-4": {
+            "Quizbit\\": "includes/"
+        },
+        "files": []
+    }
+}
